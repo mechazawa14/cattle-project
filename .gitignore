@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build
+frontend/build/
+dist/
+
+# Training large dirs
+training/checkpoints/
+training/models/
+training/logs/
+
+# ML model files
+*.pkl
+*.h5
+*.keras
+*.ckpt
+*.tflite
+*.pt
+
+# OS Files
+.DS_Store
+Thumbs.db
